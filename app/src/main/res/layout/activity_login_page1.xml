@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_below="@id/GetThingDone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_input" />
+
+
+    <ImageView
+        android:id="@+id/ImageLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/loginimage" />
+    <TextView
+        android:id="@+id/judul"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oxaniumsemibold"
+        android:layout_marginTop="10dp"
+        android:text="LISTRA"
+        android:textColor="@color/black"
+        android:layout_below="@id/ImageLogin"
+        android:textFontWeight="600"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/GetThingDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@id/judul"
+        android:text="Get Things Done With Listra"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/oxaniummedium"
+        android:textFontWeight="600"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/GetThingDone"
+        android:textSize="16dp"
+        android:fontFamily="@font/oxaniumbold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@id/GetThingDone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/white_input"
+        android:fontFamily="@font/oxaniummedium"
+        android:hint="Email"
+        android:textSize="15sp"
+        android:textColor="@color/blackSpecial"
+        android:textColorHint="@color/blackSpecial"
+        android:textFontWeight="600" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@id/Email"
+        android:textSize="16dp"
+        android:fontFamily="@font/oxaniumbold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@id/Email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/white_input"
+        android:fontFamily="@font/oxaniummedium"
+        android:hint="Password"
+        android:textSize="15sp"
+        android:textColor="@color/blackSpecial"
+        android:textColorHint="@color/blackSpecial"
+        android:textFontWeight="600"  />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button1"
+        android:backgroundTint="@color/BlueJudul"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dontHave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginButton"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:fontFamily="@font/oxaniummedium"
+        android:textFontWeight="600"/>
+
+    <TextView
+        android:id="@+id/RegisterNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginButton"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/oxaniummedium"
+        android:text="Register Now"
+        android:textColor="#00168C"
+        android:textFontWeight="600" />
+
+    <ProgressBar
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

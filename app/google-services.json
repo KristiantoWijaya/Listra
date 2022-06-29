@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179203844506",
+    "project_id": "listra-18346",
+    "storage_bucket": "listra-18346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179203844506:android:458cf25bf5349d2eebb223",
+        "android_client_info": {
+          "package_name": "com.example.listra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179203844506-qd2jke5m1mr81b1v44omlaeaoiq66i8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF8ryShVzcFKQehLBngLLB2N30FEddEpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179203844506-qd2jke5m1mr81b1v44omlaeaoiq66i8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

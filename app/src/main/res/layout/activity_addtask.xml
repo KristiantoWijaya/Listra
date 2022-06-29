@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/oxaniumbold"
+        android:text="To Do"
+        android:textColor="@color/black"
+        android:layout_marginStart="8dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/task_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#6F6F6F"
+        android:fontFamily="@font/oxaniumregular"
+        android:hint="Add a Task Here..."
+        android:textColorHint="#6F6F6F"
+
+        android:layout_below="@id/textView"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/task_edittext"
+        app:srcCompat="@drawable/calendar" />
+
+
+    <TextView
+        android:id="@+id/set_due_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_below="@id/task_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/oxaniummedium"
+        android:text="Set Due Date"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BlueJudul"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/oxaniumbold"
+        android:text="Save"
+        android:textColor="@color/white"
+       android:layout_below="@+id/set_due_tv" />
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/oxaniumbold"
+        android:text="Cancel"
+        android:visibility="visible"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/set_due_tv" />
+
+    <ProgressBar
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>
