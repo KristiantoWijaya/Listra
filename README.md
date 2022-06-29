@@ -14,7 +14,15 @@
 Listra is an Android based To-do list app where users can record tasks and they need to do with deadline dates, checkbox status, and date status
 
 <h2>FEATURES</h2>
-Features in the listra app includes User Login and Register, Email Authentication, Task status, Task deadline, Checkbox and strikethrough, Create & Read Tasks, and Edit & Delete Tasks.
+Features in the listra app includes:
+<ul>
+<li>User Login and Register 
+<li>Email Authentication 
+<li>Task status, Task deadline 
+<li>Checkbox and strikethrough 
+<li>Create & Read Tasks 
+<li>Edit & Delete Tasks.
+</ul>
 
 <h2>DATABASE</h2>
 This app uses Firestore as a cloud database, and Firebase Authentication to store the users.
